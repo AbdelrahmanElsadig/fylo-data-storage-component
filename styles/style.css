@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
-    background-image: url(/images/bg-mobile.png);
+    background-image: url(../images/bg-mobile.png);
     background-size: cover;
     min-height: 100vh;
     background-color: var(--dark-blue);
@@ -144,7 +144,7 @@ body {
 
 @media (min-width: 960px){
     body {
-        background-image: url(/images/bg-desktop.png);
+        background-image: url(../images/bg-desktop.png);
     }
     .content{
         flex-flow: row;
